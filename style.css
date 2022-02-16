@@ -14,6 +14,16 @@ body {
 .eat-here_text span {
 	color: #ee3342;
 }
+.service-card {
+	background-color: rgba(0, 0, 0, 0.3);
+	min-height: 150px;
+}
+
+.active {
+	text-decoration: underline;
+}
+
+
 
 .welcome-box {
 	height: 80%;
