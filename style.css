@@ -96,7 +96,7 @@ img {
 
 
 .container {
-	padding: 0px 1.2em;
+	padding: 0px 1.7em;
 }
 
 .mb-5 {
@@ -137,6 +137,9 @@ img {
 }
 .p-3 {
 	padding: 1.3em;
+}
+.p-2 {
+	padding: 1.1em;
 }
 
 .custom-btn {
