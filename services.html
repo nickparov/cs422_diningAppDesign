@@ -1,82 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-
-
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-
-    <title>Dining@UIC Services</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- styles -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    
+        <title>Dining@UIC</title>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap"
+          rel="stylesheet"
+        />
+    
+        <!-- styles -->
+        <link rel="stylesheet" href="style.css" />
+      </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
-            <img src="https://api.dineoncampus.com/files/test/path/f61e936e-a4f0-4125-8da5-2688452daaa6.PNG" width="300px" class="d-inline-block align-top" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a style="color: white;" class="nav-item nav-link px-4" href="./index.html">Home <span class="sr-only">(current)</span></a>
-            <a style="color: white;" class="nav-item nav-link px-4 active" href="./services.html">Services</a>
-            <a style="color: white;" class="nav-item nav-link px-4" href="./locations.html">Locations</a>
-          </div>
+    <nav id="main-nav">
+        <img src="https://api.dineoncampus.com/files/test/path/f61e936e-a4f0-4125-8da5-2688452daaa6.PNG" width="300px" class="logo-img" alt="">
+        <div class="nav-group-links">
+          <a style="color: white;" class="nav-link active" href="./index.html">Home </a>
+          <a style="color: white;" class="nav-link" href="./services.html">Services</a>
+          <a style="color: white;" class="nav-link" href="./locations.html">Locations</a>
         </div>
     </nav>
-    <div class="container mt-5">
-        <a href="./index.html" class="btn btn-outline-light"><i class="bi bi-arrow-left"></i> Back</a>
+    <div class="container mt-5 pb-5">
+        <a href="./index.html" class="custom-btn"><i class="bi bi-arrow-left"></i> Back</a>
         <h1 class="color-white mt-5"><u>We provide following services:</u></h1>
-        <div class="row mt-3">
-            <div class="col-lg-4 p-3">
-                <div class="service-card p-4 color-white">
-                    Get instant notification when restaurants nearby have special deals!
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-row">
+                <div class="p-3">
+                    <div class="service-card p-4 color-white">
+                        Get instant notification when restaurants nearby have special deals!
+                    </div>
+                </div>
+                <div class="p-3">
+                    <div class="service-card p-4 color-white">
+                        Compare all nearby dine-in places for price.
+                    </div>
+                </div>
+                <div class="p-3">
+                    <div class="service-card p-4 color-white">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quae?
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-4 p-3">
-                <div class="service-card p-4 color-white">
-                    Compare all nearby dine-in places for price.
+            <div class="d-flex flex-row">
+                <div class="p-3">
+                    <div class="service-card p-4 color-white">
+                        Compare all nearby dine-in places for price.
+                    </div>
+                </div>
+                <div class="p-3">
+                    <div class="service-card p-4 color-white">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quae?
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-4 p-3">
-                <div class="service-card p-4 color-white">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quae?
-                </div>
-            </div>
-            <div class="col-lg-6 p-3">
-                <div class="service-card p-4 color-white">
-                    Compare all nearby dine-in places for price.
-                </div>
-            </div>
-            <div class="col-lg-6 p-3">
-                <div class="service-card p-4 color-white">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quae?
-                </div>
-            </div>
-            <div class="col-12 mt-4">
-                <div class="d-flex justify-content-end">
-                    <a href="./locations.html" class="btn btn-outline-light" style="text-transform: uppercase;">See locations <i class="bi bi-arrow-right"></i></a>
-                </div>
+            <div class="d-flex flex-row justify-content-end">
+                <a href="./locations.html" class="custom-btn" style="text-transform: uppercase;">See locations <i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
     </div>

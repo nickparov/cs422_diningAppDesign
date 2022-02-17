@@ -93,17 +93,40 @@ const dineData = [
   ];
 
 
-  dineData.forEach(({url, title, location, link}) => {
+  let arr = dineData.slice(0, 5)
+
+  for(let i = 0; i < arr.length; i+=3) {
+
     $('.locations-container').prepend(`
-        <div class="col-lg-6 mt-4 p-4">
-            <div class="card" style="background-color: rgba(0, 0, 0, 0.3); color:white">
-                <img src="${url}" class="card-img-top" alt="just a regular image">
+        <div class="d-flex flex-row justify-content-center mt-4">
+            <div class="card p-4 mx-2 mt-2" style="background-color: rgba(0, 0, 0, 0.3); color:white">
+                <img src="${arr[i].url}" class="card-img-top" alt="just a regular image">
                 <div class="card-body">
-                    <h5 class="card-title">${title}</h5>
-                    <p class="card-text">${location}</p>
-                    <a href="${link}" class="btn btn-outline-light btn-block">VISIT</a>
+                    <h5 class="card-item">${arr[i].title}</h5>
+                    <p class="card-item">${arr[i].location}</p>
+                    <a href="${arr[i].link}" class="custom-btn">VISIT</a>
+                </div>
+            </div>
+            <div class="card p-4 mx-2 mt-2" style="background-color: rgba(0, 0, 0, 0.3); color:white">
+                <img src="${arr[i+1].url}" class="card-img-top" alt="just a regular image">
+                <div class="card-body">
+                    <h5 class="card-item">${arr[i+1].title}</h5>
+                    <p class="card-item">${arr[i+1].location}</p>
+                    <a href="${arr[i+1].link}" class="custom-btn">VISIT</a>
+                </div>
+            </div>
+            <div class="card p-4 mx-2 mt-2" style="background-color: rgba(0, 0, 0, 0.3); color:white">
+                <img src="${arr[i+2].url}" class="card-img-top" alt="just a regular image">
+                <div class="card-body">
+                    <h5 class="card-item">${arr[i+2].title}</h5>
+                    <p class="card-item">${arr[i+2].location}</p>
+                    <a href="${arr[i+2].link}" class="custom-btn">VISIT</a>
                 </div>
             </div>
         </div>`)
-  })
+  } 
+  
+  
+   
+  
 
