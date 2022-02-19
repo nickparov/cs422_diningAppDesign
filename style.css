@@ -18,6 +18,9 @@ body {
 .service-card {
 	background-color: rgba(0, 0, 0, 0.3);
 	min-height: 150px;
+	min-width: 350px;
+	
+	flex-grow: 1;
 }
 
 .active {
@@ -99,6 +102,10 @@ img {
 	padding: 0px 1.7em;
 }
 
+.text-container {
+
+}
+
 .mb-5 {
 	margin-bottom: 2em !important;
 }
@@ -114,6 +121,10 @@ img {
 }
 
 
+.m-2 {
+	margin: 1.1em;
+}
+
 
 .mt-5 {
 	margin-top: 2em !important;
@@ -126,6 +137,9 @@ img {
 }
 .mt-2 {
 	margin-top: 1.1em !important;
+}
+.mt-1 {
+	margin-top: 1em;;
 }
 
 

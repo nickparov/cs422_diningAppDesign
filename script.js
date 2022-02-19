@@ -95,32 +95,44 @@ const dineData = [
 
   let arr = dineData.slice(0, 5)
 
-  for(let i = 0; i < arr.length; i+=3) {
+  for(let i = 0; i < arr.length; i+=4) {
 
     $('.locations-container').prepend(`
         <div class="d-flex flex-row justify-content-center mt-4">
             <div class="card p-4 mx-2 mt-2" style="background-color: rgba(0, 0, 0, 0.3); color:white">
-                <img src="${arr[i].url}" class="card-img-top" alt="just a regular image">
+                <img src="./placeholder-image.png" width="300px" style="background-color: white;" class="card-img-top" alt="just a regular image">
                 <div class="card-body">
                     <h5 class="card-item">${arr[i].title}</h5>
+                    <p class="card-item"> Crowd: <i class="bi bi-person-fill"></i> </p>
                     <p class="card-item">${arr[i].location}</p>
                     <a href="${arr[i].link}" class="custom-btn">VISIT</a>
                 </div>
             </div>
             <div class="card p-4 mx-2 mt-2" style="background-color: rgba(0, 0, 0, 0.3); color:white">
-                <img src="${arr[i+1].url}" class="card-img-top" alt="just a regular image">
+                <img src="./placeholder-image.png" width="300px" style="background-color: white;" class="card-img-top" alt="just a regular image">
                 <div class="card-body">
                     <h5 class="card-item">${arr[i+1].title}</h5>
+                    <p class="card-item"> Crowd: <i class="bi bi-person-fill"></i><i class="bi bi-person-fill"></i> </p>
                     <p class="card-item">${arr[i+1].location}</p>
                     <a href="${arr[i+1].link}" class="custom-btn">VISIT</a>
                 </div>
             </div>
             <div class="card p-4 mx-2 mt-2" style="background-color: rgba(0, 0, 0, 0.3); color:white">
-                <img src="${arr[i+2].url}" class="card-img-top" alt="just a regular image">
+                <img src="./placeholder-image.png" width="300px" style="background-color: white;" class="card-img-top" alt="just a regular image">
                 <div class="card-body">
                     <h5 class="card-item">${arr[i+2].title}</h5>
+                    <p class="card-item"> Crowd: <i class="bi bi-person-fill"></i> </p>
                     <p class="card-item">${arr[i+2].location}</p>
                     <a href="${arr[i+2].link}" class="custom-btn">VISIT</a>
+                </div>
+            </div>
+             <div class="card p-4 mx-2 mt-2" style="background-color: rgba(0, 0, 0, 0.3); color:white">
+                <img src="./placeholder-image.png" width="300px" style="background-color: white;" class="card-img-top" alt="just a regular image">
+                <div class="card-body">
+                    <h5 class="card-item">${arr[i+3].title}</h5>
+                    <p class="card-item"> Crowd: <i class="bi bi-person-fill"></i><i class="bi bi-person-fill"></i><i class="bi bi-person-fill"></i> </p>
+                    <p class="card-item">${arr[i+3].location}</p>
+                    <a href="${arr[i+3].link}" class="custom-btn">VISIT</a>
                 </div>
             </div>
         </div>`)
