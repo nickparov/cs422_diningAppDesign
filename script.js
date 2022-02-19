@@ -99,7 +99,7 @@ const dineData = [
 
     $('.locations-container').prepend(`
         <div class="d-flex flex-row justify-content-center mt-4">
-            <div class="card p-4 mx-2 mt-2" style="background-color: rgba(0, 0, 0, 0.3); color:white">
+            <div class="card p-4 mx-2 mt-2" style="background-color: rgba(0, 0, 0, 0.3); color:black">
                 <img src="./placeholder-image.png" width="300px" style="background-color: white;" class="card-img-top" alt="just a regular image">
                 <div class="card-body">
                     <h5 class="card-item">${arr[i].title}</h5>
@@ -108,7 +108,7 @@ const dineData = [
                     <a href="${arr[i].link}" class="custom-btn">VISIT</a>
                 </div>
             </div>
-            <div class="card p-4 mx-2 mt-2" style="background-color: rgba(0, 0, 0, 0.3); color:white">
+            <div class="card p-4 mx-2 mt-2" style="background-color: rgba(0, 0, 0, 0.3); color:black">
                 <img src="./placeholder-image.png" width="300px" style="background-color: white;" class="card-img-top" alt="just a regular image">
                 <div class="card-body">
                     <h5 class="card-item">${arr[i+1].title}</h5>
@@ -117,7 +117,7 @@ const dineData = [
                     <a href="${arr[i+1].link}" class="custom-btn">VISIT</a>
                 </div>
             </div>
-            <div class="card p-4 mx-2 mt-2" style="background-color: rgba(0, 0, 0, 0.3); color:white">
+            <div class="card p-4 mx-2 mt-2" style="background-color: rgba(0, 0, 0, 0.3); color:black">
                 <img src="./placeholder-image.png" width="300px" style="background-color: white;" class="card-img-top" alt="just a regular image">
                 <div class="card-body">
                     <h5 class="card-item">${arr[i+2].title}</h5>
@@ -126,7 +126,7 @@ const dineData = [
                     <a href="${arr[i+2].link}" class="custom-btn">VISIT</a>
                 </div>
             </div>
-             <div class="card p-4 mx-2 mt-2" style="background-color: rgba(0, 0, 0, 0.3); color:white">
+             <div class="card p-4 mx-2 mt-2" style="background-color: rgba(0, 0, 0, 0.3); color:black">
                 <img src="./placeholder-image.png" width="300px" style="background-color: white;" class="card-img-top" alt="just a regular image">
                 <div class="card-body">
                     <h5 class="card-item">${arr[i+3].title}</h5>

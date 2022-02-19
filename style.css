@@ -8,12 +8,12 @@ body {
 }
 .eat-here_text {
 	text-align: center;
-	color: #fff;
+	color: black;
 	text-transform: uppercase;
 	font-size: 60px;
 }
 .eat-here_text span {
-	color: #ee3342;
+	color: black;
 }
 .service-card {
 	background-color: rgba(0, 0, 0, 0.3);
@@ -28,6 +28,7 @@ body {
 }
 .nav-link {
 	text-decoration: none;
+	color: black !important;
 }
 
 .d-flex {
@@ -158,9 +159,9 @@ img {
 
 .custom-btn {
 	padding: 10px 20px;
-	border: 2px solid white;
+	border: 2px solid black;
 	border-radius: 5px;
-	color: white;
+	color: black;
 
 	text-decoration: none;
 
@@ -173,11 +174,10 @@ img {
 
 
 .color-white {
-	color: white;
+	color: black;
 }
 
 body {
-	background: linear-gradient(rgba(132, 132, 132, 132), rgba(0, 0, 1, 0.8)), url(https://sites.google.com/a/uic.edu/chicago-area-siam-student-conference-2016/_/rsrc/1460733134653/home/uic-map/UIC_east_campus_map.jpg);
 	-webkit-background-size: cover;
 	background-size: 75%;
 	background-position: right 25% bottom 75%;
